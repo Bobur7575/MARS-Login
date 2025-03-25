@@ -1,0 +1,145 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+max-width: 1200px;
+margin: 0 auto;
+font-family: Inter;
+}
+
+
+
+
+body{
+font-family: Inter;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button{
+border: 10px solid #000;
+
+
+}
+
+.logo img {
+    height: 40px; 
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.language img {
+    height: 20px; 
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.card-header img {
+    height: 30px; 
+}
+
+.offer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #FF4500;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.user-type {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.user-type button {
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    
+}
+
+.user-type button.active {
+    background-color: #F5F5F5;
+    color: rgb(63, 60, 60);
+    border: none;
+    border: 1px solid #ccc;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.qr-login {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.qr-login img {
+    height: 20px; 
+}
+
+.rozilik {
+    background-color: #f08080; 
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+}
